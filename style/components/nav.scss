@@ -1,0 +1,28 @@
+@import "../_variable.scss";
+
+#nav{
+    nav{
+        margin-left: 2em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        #first-nav{
+            display: flex;
+            align-items: center;
+            a{
+                text-decoration:none;
+                margin-left: 4em;
+                color: $color-text;
+            }
+
+        }
+        #second-nav{
+            display: flex;
+            a{
+                text-decoration:none;
+                margin-right: 4em;
+                color: $color-text;
+            };
+        }
+    }
+}

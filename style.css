@@ -1,0 +1,401 @@
+#image-top {
+  margin-top: 2em;
+}
+
+#nav nav {
+  margin-left: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#nav nav #first-nav {
+  display: flex;
+  align-items: center;
+}
+#nav nav #first-nav a {
+  text-decoration: none;
+  margin-left: 4em;
+  color: #FAF4D3;
+}
+#nav nav #second-nav {
+  display: flex;
+}
+#nav nav #second-nav a {
+  text-decoration: none;
+  margin-right: 4em;
+  color: #FAF4D3;
+}
+
+#banner-nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+#banner-nav button {
+  background-color: #2D282A;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#banner-nav #equipments {
+  background-color: #F6F6F6;
+  border-radius: 0 0 20px 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1.3s ease;
+}
+#banner-nav #equipments.open {
+  max-height: 150px;
+  transition: max-height 1.3s ease;
+}
+
+.card a {
+  text-decoration: none;
+  color: #FAF4D3;
+}
+.card .card-body {
+  width: 100%;
+}
+.card .card-body h2 {
+  position: relative;
+  top: -13em;
+  left: 1em;
+  color: #FAF4D3;
+  text-decoration: none;
+}
+.card .card-body p {
+  position: relative;
+  top: -5.5em;
+  left: 13em;
+  color: #FAF4D3;
+  font-size: 1.2em;
+}
+
+body {
+  background-color: #2D282A;
+  max-width: 1440px;
+  width: 100%;
+  margin: 25px auto;
+}
+
+#produits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#produits #nos-produits {
+  color: #FAF4D3;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+}
+#produits #first-viande {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#produits #first-viande figcaption {
+  margin-left: 10em;
+  padding: 2em;
+  color: #FAF4D3;
+  font-size: 1.5em;
+  border: 1px solid #FAF4D3;
+}
+#produits #first-charcuterie {
+  margin-top: 5em;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+#produits #first-charcuterie figcaption {
+  margin-right: 7em;
+  margin-left: 3em;
+  padding: 2em;
+  color: #FAF4D3;
+  font-size: 1.5em;
+  border: 1px solid #FAF4D3;
+}
+#produits #first-plat {
+  margin-top: 5em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#produits #first-plat figcaption {
+  margin-left: 10em;
+  padding: 2em;
+  color: #FAF4D3;
+  font-size: 1.5em;
+  border: 1px solid #FAF4D3;
+}
+
+#log h1 {
+  margin: 2em 0 2em 0;
+  color: #FAF4D3;
+  text-align: center;
+}
+#log form {
+  color: #FAF4D3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#log form .formulaire {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2em;
+}
+#log form .formulaire label {
+  font-size: 1.5em;
+}
+#log form .formulaire input {
+  margin-left: 10em;
+  justify-content: center;
+  width: 35em;
+  height: 2em;
+  background-color: #2D282A;
+  border: 1px solid #FAF4D3;
+  margin-bottom: 5em;
+}
+#log form #button-log {
+  display: flex;
+}
+#log form #button-log input {
+  display: flex;
+  justify-content: center;
+  width: 15em;
+  height: 5em;
+  border-radius: 1em;
+  background-color: #2D282A;
+  color: #FAF4D3;
+  border: 1px solid #FAF4D3;
+}
+#log form #button-log a {
+  margin-right: 10em;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12em;
+  height: 4em;
+  border-radius: 1em;
+  background-color: #2D282A;
+  color: #FAF4D3;
+  border: 1px solid #FAF4D3;
+}
+
+#password {
+  margin-right: 3em;
+}
+
+#registration h1 {
+  margin: 3em;
+  display: flex;
+  justify-content: center;
+  color: #FAF4D3;
+}
+#registration form {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+#registration form input {
+  margin: 0 40em 2em 10em;
+  width: 20em;
+  height: 2em;
+  background-color: #2D282A;
+  border: 1px solid #FAF4D3;
+  color: #FAF4D3;
+}
+#registration form label {
+  font-size: 1.1em;
+  color: #FAF4D3;
+}
+#registration #button-log input {
+  margin-right: 42em;
+  border-radius: 1em;
+  max-width: 15em;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+  filter: invert(50%) sepia(50%) saturate(40%) hue-rotate(180deg);
+}
+
+#body #top img {
+  margin: auto;
+  width: 95%;
+  max-height: 300px;
+  object-fit: cover;
+}
+#body #button {
+  margin: 5em auto;
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+}
+#body #button button {
+  width: 10em;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #FAF4D3;
+  background-color: #2D282A;
+  color: #FAF4D3;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+#body #produits {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+#body #produits img {
+  width: 300px;
+  height: 300px;
+  border-radius: 2em;
+}
+
+#produit {
+  display: flex;
+  margin-top: 5em;
+}
+#produit img {
+  width: 35em;
+  height: 35em;
+  margin: 2em;
+  margin-top: 7em;
+  border-radius: 2em;
+}
+#produit #produit-description {
+  max-width: 100%;
+  color: #FAF4D3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto 0 auto;
+}
+#produit #produit-description h1 {
+  font-size: 3em;
+}
+#produit #produit-description #produit-des-price {
+  margin-top: 5em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#produit #produit-description #produit-des-price h2 {
+  font-size: 1.5em;
+  width: 30%;
+}
+#produit #produit-description #produit-des-price h3 {
+  font-size: 1.5em;
+  width: 30%;
+}
+#produit #produit-description #produit-des-price p {
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin-bottom: 5em;
+}
+#produit #produit-description #produit-des-price #price {
+  margin-top: 0.7em;
+  font-size: 2em;
+}
+#produit #produit-description button {
+  background-color: #2D282A;
+  color: #FAF4D3;
+  border: 1px solid #FAF4D3;
+  width: 10em;
+  height: 3em;
+  border-radius: 1em;
+  font-size: 1.5em;
+}
+
+#form-add {
+  margin-top: 7em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#form-add h1 {
+  font-size: 2em;
+  color: #FAF4D3;
+}
+#form-add .formulaire {
+  margin-top: 4em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#form-add .formulaire label {
+  font-size: 1.5em;
+  color: #FAF4D3;
+  width: 20%;
+  margin-left: 10em;
+  margin-top: 2em;
+}
+#form-add .formulaire select {
+  color: #FAF4D3;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  background-color: #2D282A;
+  border: 1px solid #FAF4D3;
+  height: 2em;
+  width: 40.5%;
+  margin-right: 20em;
+  margin-top: 3.2em;
+}
+#form-add .formulaire input {
+  display: flex;
+  justify-content: center;
+  background-color: #2D282A;
+  border: 1px solid #FAF4D3;
+  height: 2em;
+  width: 40%;
+  margin-right: 20em;
+  margin-top: 3.2em;
+}
+#form-add .formulaire #cover {
+  border: none;
+  color: #FAF4D3;
+  margin-top: 3.1em;
+}
+#form-add .formulaire input[type=file]::-webkit-file-upload-button {
+  background-color: #2D282A;
+  border: 1px solid #FAF4D3;
+  font-size: 1.5em;
+  color: #FAF4D3;
+}
+#form-add #button-log {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+}
+#form-add #button-log button {
+  width: 7em;
+  font-size: 1.5em;
+  background-color: #2D282A;
+  border: 1px solid #FAF4D3;
+  color: #FAF4D3;
+  border-radius: 2em;
+  padding: 0.3em;
+}
+
+/*# sourceMappingURL=style.css.map */

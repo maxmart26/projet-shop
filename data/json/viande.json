@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "category": "viande",
+        "name": "steak",
+        "price": "10",
+        "description": "steak de boeuf",
+        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg"
+    },
+    {
+        "id": "2",
+        "category": "viande",
+        "name": "bifteck",
+        "price": "15",
+        "description": "bifteck de boeuf",
+        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+    },
+    {
+        "id": "3",
+        "category": "viande",
+        "name": "cote de boeuf",
+        "price": "20",
+        "description": "cote de boeuf de boeuf",
+        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+    },
+    {
+        "id": "4",
+        "category": "viande",
+        "name": "agneau",
+        "price": "10",
+        "description": "agneau de boeuf",
+        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+    },
+    {
+        "id": "5",
+        "category": "viande",
+        "name": "cote d'agneau",
+        "price": "15",
+        "description": "cote d'agneau de boeuf",
+        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+    },
+    {
+        "id": "6",
+        "category": "viande",
+        "name": "gigot d'agneau",
+        "price": "20",
+        "description": "gigot d'agneau de boeuf",
+        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+    }
+    ]

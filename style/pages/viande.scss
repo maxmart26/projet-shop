@@ -1,0 +1,39 @@
+@import "../_variable.scss";
+
+#body{
+    #top{
+        img{
+            margin: auto;
+            width: 95%;
+            max-height: 300px;
+            object-fit: cover;
+        }}
+        #button{
+            margin: 5em auto;
+            width: 95%;
+            display: flex;
+            justify-content: space-around;
+            button{
+                width: 10em;
+                height: 50px;
+                border-radius: 10px;
+                border: 1px solid $color-text;
+                background-color: $color-fond;
+                color: $color-text;
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+        }
+        #produits{
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            width: 80%;
+            img{
+                width: 300px;
+                height: 300px;
+                border-radius: 2em;
+            }
+            
+        }
+}

@@ -1,0 +1,65 @@
+#log{
+    
+    h1{
+        margin: 2em 0 2em 0;
+        color: $color-text;
+        text-align: center;
+    }
+    form{
+        color: $color-text;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+       .formulaire{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 2em;
+        label{
+            
+            font-size: 1.5em;
+        }
+        input{
+            margin-left: 10em;
+            justify-content: center;
+            width: 35em;
+            height: 2em;
+            background-color: $color-fond;
+            border: 1px solid $color-text;
+            margin-bottom: 5em;
+            
+        }
+       }
+       #button-log{
+        display: flex;      
+       input{
+            display: flex;
+            justify-content: center;
+            width: 15em;
+            height: 5em;
+            border-radius: 1em;
+            background-color: $color-fond;
+            color: $color-text;
+            border: 1px solid $color-text;
+       }
+       a{
+            margin-right: 10em;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 12em;
+            height: 4em;
+            border-radius: 1em;
+            background-color: $color-fond;
+            color: $color-text;
+            border: 1px solid $color-text;
+       }
+    }
+    }
+}
+#password{
+    margin-right: 3em;
+}
