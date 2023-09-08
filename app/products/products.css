@@ -1,0 +1,9 @@
+.products-banner {
+  margin-inline: 30px;
+}
+.products-banner img {
+  width: 100%;
+  max-height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=products.css.map */

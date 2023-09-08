@@ -1,0 +1,40 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    text-align: end;
+    align-items: center;
+    margin: 4em auto 0;
+    padding-right: 2em;
+
+}
+
+.login-form label {
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 2em;
+}
+
+.login-form label input {
+    width: 60%;
+    margin: 40px;
+    margin-left: 10em;
+    height: 2.5em;
+}
+
+.login-form .signup-login {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.login-form .signup-login button {
+    width: 12em;
+    height: 4em;
+    font-size: 1em;
+    border-radius: 1em;
+}

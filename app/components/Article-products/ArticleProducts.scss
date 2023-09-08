@@ -1,0 +1,27 @@
+.article-products {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  &:nth-of-type(2) {
+    flex-direction: row-reverse;
+  }
+  .article-img {
+    width: 45%;
+    img {
+      width: 100%;
+    }
+  }
+  a {
+    padding: 50px;
+    font-size: 22px;
+    border: 1px solid #faf4d3;
+    color: #faf4d3;
+    transition: 0.5s;
+    &:hover {
+      background-color: #faf4d3;
+      color: #2d282a;
+      transition: 0.5s;
+    }
+  }
+}
